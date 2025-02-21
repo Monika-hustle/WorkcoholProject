@@ -1,0 +1,91 @@
+.home {
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Carousel Section Styles */
+.carousel-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.carousel h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Carousel Styles */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-items {
+  display: flex;
+  width: 300%; /* 3 images */
+  animation: scroll 60s linear infinite; /* Slower animation */
+  gap: 80px;
+}
+
+.carousel-items img {
+  padding-left: 10px;;
+  width: 400px; /* Each image takes up 1/3rd of the container */
+  object-fit: cover;
+  height: 650px; /* Set a fixed height (adjust to your liking) */
+  cursor:pointer;
+}
+/*
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+  transform: translateX(-33.33%); /* Scroll to the second image */
+  
+/*}
+  66.66% {
+    transform: translateX(-66.66%); /* Scroll to the third image */
+  /*
+  }
+  100% {
+    transform: translateX(0); /* Loop back to the first image */
+  /*
+  }
+}
+*/
