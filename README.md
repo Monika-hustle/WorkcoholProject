@@ -2,5 +2,4 @@
  -->Envionment setup
  -->Frontend
  -->Backend connection
-#Going to add admin
-cart 
+#Going to admin and authentication
